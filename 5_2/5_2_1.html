@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Tree</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <p>world</p>
+
+    <script>
+        const rootNode = document.documentElement;
+
+        console.log("Root node name : ", rootNode.nodeName);
+        console.log("Root node type : ", rootNode.nodeType);
+        console.log("Root node childNodes : ", rootNode.childNodes);
+
+        const bodyNode = document.body;
+        console.log("body의 부모 노드: ", bodyNode.parentNode.nodeName);
+
+        if (rootNode == document.parentNode)
+            console.log("body는 부모 노드 : ", bodyNode.parentNode.nodeName);
+        else 
+        console.log("다른 노드입니다.")
+    </script>
+</body>
+</html>

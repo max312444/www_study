@@ -3,22 +3,26 @@
     color: red;
 } */
 
+html {
+    font-size: 16px;
+}
+
 .container {
-    font-size: 22px;
-    width: 200px;
-    height: 50px;
     color: aqua;
     border: 0.5px solid red;
 }
 
 .item {
     width: 50px;
-    height: inherit;
     background-color: azure;
     border: 0.5px dashed blue;
 }
 
-.item:nth-child(2):hover {
+.item:nth-child(1) {
+    font-size: 2rem;
+}
+
+/* .item:nth-child(2):hover {
     width: inherit;
     transition: 1s;
-}
+} */

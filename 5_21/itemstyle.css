@@ -1,0 +1,23 @@
+.container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: auto; /* auto & visible 도 있음*/
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 10px 0px 0px 0px;
+}
+
+span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 0.2px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "my_first_project",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}

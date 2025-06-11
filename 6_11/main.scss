@@ -1,0 +1,18 @@
+// 변수 선언
+$my-color: yellow; 
+
+.card_container {
+    @for $i from 1 through 5 {
+        .card:nth-child(#{$i}) {
+            @if $i % 2 == 0 {
+                background-color: $my-color;
+            } @else {
+                background-color: red;
+            }
+                width: 100px * $i;
+                height: 200px;
+                background-color: $my-color;
+                border: 2px solid red;
+        }
+    }
+}

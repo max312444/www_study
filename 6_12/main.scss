@@ -1,3 +1,10 @@
+.card-box {
+    display: flex; // flext-box -> container
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card-container {
     width: 100px;
     height: 150px;

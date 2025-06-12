@@ -7,7 +7,7 @@ $my-color: yellow;
             @if $i % 2 == 0 {
                 background-color: $my-color;
             } @else {
-                background-color: red;
+                background-color: blue;
             }
                 width: 100px * $i;
                 height: 200px;

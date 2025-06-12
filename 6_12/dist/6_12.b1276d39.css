@@ -1,0 +1,15 @@
+.card-container {
+  border: 1px solid #000;
+  width: 100px;
+  height: 150px;
+}
+
+.card-container .card {
+  background-image: url("cardClubs2.ca105de3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=6_12.b1276d39.css.map */

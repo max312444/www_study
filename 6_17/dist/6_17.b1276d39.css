@@ -1,0 +1,19 @@
+.card-box {
+  border: 1px solid #000;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card-box .card-container {
+  width: 100px;
+  height: 150px;
+}
+
+.card-box .card-container .card {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=6_17.b1276d39.css.map */

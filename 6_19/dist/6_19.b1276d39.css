@@ -1,0 +1,119 @@
+header {
+  height: 60p;
+  z-index: 10000;
+  background-color: #000;
+  width: 100%;
+  position: fixed;
+}
+
+header nav {
+  height: 100%;
+}
+
+header nav ul {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  color: #fff;
+  border: 1px solid #fff;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: all .5s;
+  display: flex;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+.card-box {
+  border: 1px solid #000;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card-box .card-container {
+  width: 100px;
+  height: 150px;
+}
+
+.card-box .card-container .card {
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  transition: transform .8s;
+  position: relative;
+}
+
+.card-box .card-container .card:hover {
+  z-index: 10;
+  transform: scale(3)rotate(360deg);
+}
+
+.card-box .card-container:first-child .card {
+  background-image: url("cardDiamondsA.bd9b0d05.png");
+}
+
+.card-box .card-container:nth-child(2) .card {
+  background-image: url("cardDiamonds2.97e23f95.png");
+}
+
+.card-box .card-container:nth-child(3) .card {
+  background-image: url("cardDiamonds3.1dac03df.png");
+}
+
+.card-box .card-container:nth-child(4) .card {
+  background-image: url("cardDiamonds4.ba7d4612.png");
+}
+
+.card-box .card-container:nth-child(5) .card {
+  background-image: url("cardDiamonds5.66c73f8a.png");
+}
+
+.card-box .card-container:nth-child(6) .card {
+  background-image: url("cardDiamonds6.721fd33d.png");
+}
+
+.card-box .card-container:nth-child(7) .card {
+  background-image: url("cardDiamonds7.5f9bd69d.png");
+}
+
+.card-box .card-container:nth-child(8) .card {
+  background-image: url("cardDiamonds8.5b504ae8.png");
+}
+
+.card-box .card-container:nth-child(9) .card {
+  background-image: url("cardDiamonds9.2fba4f46.png");
+}
+
+.card-box .card-container:nth-child(10) .card {
+  background-image: url("cardDiamonds10.79e040b0.png");
+}
+
+.card-box .card-container:nth-child(11) .card {
+  background-image: url("cardDiamondsJ.dfe97229.png");
+}
+
+.card-box .card-container:nth-child(12) .card {
+  background-image: url("cardDiamondsQ.3e65f64a.png");
+}
+
+.card-box .card-container:nth-child(13) .card {
+  background-image: url("cardDiamondsK.bcb0bc87.png");
+}
+/*# sourceMappingURL=6_19.b1276d39.css.map */
